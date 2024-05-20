@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: $default-font-size;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: $color-bg;
+    color: $color-light;
+    font-family: $font-regular;
+    font-size: $text-regular;
+    line-height: $default-line-height;
+    min-height: $default-body-height;
+
+    background-image:
+    linear-gradient(
+        to right,
+        rgba(#000000, 0.75),
+        rgba(#000000, 0.75)
+    ),
+    radial-gradient(at 68% 53%, hsla(273,61%,55%,1) 0px, transparent 50%),
+    radial-gradient(at 36% 19%, hsla(255,94%,68%,1) 0px, transparent 50%),
+    radial-gradient(at 38% 93%, hsla(260,88%,69%,1) 0px, transparent 50%),
+    radial-gradient(at 97% 48%, hsla(267,93%,79%,1) 0px, transparent 50%),
+    radial-gradient(at 14% 98%, hsla(302,70%,63%,1) 0px, transparent 50%),
+    radial-gradient(at 56% 99%, hsla(312,60%,58%,1) 0px, transparent 50%),
+    radial-gradient(at 45% 9%, hsla(305,68%,68%,1) 0px, transparent 50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

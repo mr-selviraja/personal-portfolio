@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #7c43c7;
+  color: #d8d2d2;
+  font-family: "Outfit", "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), radial-gradient(at 68% 53%, hsl(273, 61%, 55%) 0px, transparent 50%), radial-gradient(at 36% 19%, hsl(255, 94%, 68%) 0px, transparent 50%), radial-gradient(at 38% 93%, hsl(260, 88%, 69%) 0px, transparent 50%), radial-gradient(at 97% 48%, hsl(267, 93%, 79%) 0px, transparent 50%), radial-gradient(at 14% 98%, hsl(302, 70%, 63%) 0px, transparent 50%), radial-gradient(at 56% 99%, hsl(312, 60%, 58%) 0px, transparent 50%), radial-gradient(at 45% 9%, hsl(305, 68%, 68%) 0px, transparent 50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading-primary {
+  font-size: 9.6rem;
+  color: #ffffff;
+  font-family: "Fraunces", "Georgia", serif;
+}
+
+.heading-secondary {
+  font-size: 5rem;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
